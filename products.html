@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products | EarthenCare</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Small product grid styles to match theme */
+    .products-hero { max-width:1100px; margin:1.5rem auto; padding:1.5rem; background:#fff; border-radius:12px; }
+    .products-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:1rem; margin-top:1rem; }
+    .product-card { background:#fff; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.06); padding:1rem; display:flex; flex-direction:column; gap:0.5rem; }
+    .product-card img { width:100%; height:140px; object-fit:cover; border-radius:8px; }
+    .product-title { font-weight:700; color:#23413f; }
+    .product-desc { color:#666; font-size:0.95rem; }
+    .product-tag { margin-top:auto; display:flex; justify-content:space-between; align-items:center; }
+    .verified { background:#e6fff3; color:#0b7b3a; padding:4px 8px; border-radius:999px; font-size:0.85rem; }
+    .filter-note { color:#23413f; margin-top:0.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">🌱 EarthenCare</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="tool.html">Tool</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div id="authHeaderBox"></div>
+    </nav>
+  </header>
+  <script>
+    const user = localStorage.getItem('greenshift_user');
+    const authBox = document.getElementById('authHeaderBox');
+    if (!user && authBox) {
+      authBox.innerHTML = '<a href="login.html" class="btn btn-primary" style="margin-left:1rem;">Login / Sign Up</a>';
+    } else if (user && authBox) {
+      authBox.innerHTML = '<button id="logoutBtn" class="btn btn-secondary" style="margin-left:1rem;">Logout</button>';
+      document.getElementById('logoutBtn').addEventListener('click', () => {
+        if (confirm('Are you sure you want to log out?')) {
+          localStorage.removeItem('greenshift_user');
+          window.location.href = 'index.html';
+        }
+      });
+    }
+  </script>
+
+  <main>
+    <section class="page-section" style="background:linear-gradient(120deg,#f5fff7,#ffffff); padding:2rem 1rem; min-height:70vh;">
+      <div class="products-hero">
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+          <h2 style="margin:0; color:#0e6b4b;">Products</h2>
+          <div style="color:#666;">Browse verified products and materials for home & appliances</div>
+        </div>
+        <div style="display:flex; gap:0.5rem; align-items:center; margin-top:0.5rem;">
+          <label for="productFilter">Filter by category:</label>
+          <select id="productFilter" style="padding:6px;">
+            <option value="">All</option>
+            <option value="electricity">Electricity</option>
+            <option value="water">Water</option>
+            <option value="building">Green Building</option>
+            <option value="deals">Latest Deals</option>
+          </select>
+          <button id="applyFilterBtn" class="btn btn-primary" style="padding:6px 10px;">Apply</button>
+          <button id="clearFilterBtn" class="btn btn-secondary" style="padding:6px 10px;">Clear</button>
+        </div>
+
+        <div class="products-grid" id="productsGrid">
+          <!-- Product cards will be injected here -->
+        </div>
+        <div class="filter-note" id="filterNote">Showing all products</div>
+      </div>
+    </section>
+  </main>
+
+  <footer style="margin-top:2rem; padding:1.5rem; text-align:center; background:#f0fff6;">
+    © 2025 EarthenCare
+  </footer>
+
+  <script>
+    // Sample product data (categories: electricity, water, building, gardening, lighting)
+    const PRODUCTS = [
+      { id:1, category:'electricity', title:'Energy Efficient LED Bulb', desc:'9W LED bulb - warm white - long life', img:'https://i.ibb.co/vxfZ8Nvq/ledbulb.webp', verified:true },
+      { id:2, category:'electricity', title:'Smart Inverter Geyser', desc:'2kW inverter-ready water heater', img:"https://i.ibb.co/JjGk0yxH/geyser.webp", verified:true },
+      { id:3, category:'water', title:'Low Flow Tap Aerator', desc:'Reduces water flow without losing pressure', img:"https://i.ibb.co/q34j2y8C/GREENLY-SHOWER-AERATOR.webp", verified:true },
+      { id:4, category:'water', title:'Efficient Showerhead', desc:'High-efficiency showerhead, SPA style', img:'https://i.ibb.co/tPkWHLwJ/shower.jpg', verified:true },
+      { id:5, category:'building', title:'Insulation Panel', desc:'Thermal insulation panel for roofs', img:'https://i.ibb.co/Xf5MvCwb/sip-structure-insulated-panel.jpg', verified:true },
+      { id:6, category:'building', title:'Low-VOC Paint', desc:'Environment friendly interior paint', img:'https://i.ibb.co/qYM5RGqm/images.jpg', verified:true },
+      { id:7, category:'building', title:'Native Plant Pack', desc:'Pack of 5 native species for landscaping', img:'https://i.ibb.co/WWVCx2MP/plants.jpg', verified:true },
+      { id:8, category:'electricity', title:'Solar Garden Light', desc:'LED solar-powered garden light', img:'https://i.ibb.co/nq6Pgkcm/solar-light.webp', verified:true },
+      { id:9, category:'electricity', title:'Solar Panel', desc:'High-efficiency solar panel for home use', img:'https://i.ibb.co/Dgt1cC8Z/solar-01.png', verified:true }
+    ];
+
+  const grid = document.getElementById('productsGrid');
+  const note = document.getElementById('filterNote');
+  const filterSelect = document.getElementById('productFilter');
+  const applyFilterBtn = document.getElementById('applyFilterBtn');
+  const clearFilterBtn = document.getElementById('clearFilterBtn');
+
+    function renderProducts(filter) {
+      grid.innerHTML = '';
+      const list = filter ? PRODUCTS.filter(p => p.category === filter) : PRODUCTS;
+      list.forEach(p => {
+        const card = document.createElement('div');
+        card.className = 'product-card';
+        card.innerHTML = `
+          <img src="${p.img}" alt="${p.title}">
+          <div class="product-title">${p.title}</div>
+          <div class="product-desc">${p.desc}</div>
+          <div class="product-tag"><span class="verified">Verified Supplier</span><button onclick="viewDetails(${p.id})" class="btn btn-secondary" style="padding:6px 10px;">View</button></div>
+        `;
+        grid.appendChild(card);
+      });
+      note.textContent = filter ? `Showing products: ${filter}` : 'Showing all products';
+    }
+
+    function viewDetails(id) {
+      alert('Product details (placeholder) - product id: ' + id);
+    }
+
+    // If ?cat=xxx is present, filter automatically
+    const params = new URLSearchParams(location.search);
+    const cat = params.get('cat');
+    if (cat) {
+      filterSelect.value = cat;
+    }
+    renderProducts(cat);
+
+    // Manual filter controls for users who visit products page directly
+    applyFilterBtn.addEventListener('click', () => {
+      const sel = filterSelect.value || '';
+      // Update URL without reloading
+      const u = new URL(location.href);
+      if (sel) u.searchParams.set('cat', sel); else u.searchParams.delete('cat');
+      history.replaceState({}, '', u.toString());
+      renderProducts(sel || null);
+    });
+
+    clearFilterBtn.addEventListener('click', () => {
+      filterSelect.value = '';
+      const u = new URL(location.href);
+      u.searchParams.delete('cat');
+      history.replaceState({}, '', u.toString());
+      renderProducts(null);
+    });
+  </script>
+</body>
+</html>

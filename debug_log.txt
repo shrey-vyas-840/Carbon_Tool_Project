@@ -1,0 +1,2167 @@
+Raw input: [{"appliance":"Refrigerator","units":1,"watt":150,"hours":24,"kwh":108,"co2":91.8},{"appliance":"Laptop","units":1,"watt":60,"hours":5,"kwh":9,"co2":7.6499999999999995},{"appliance":"Television","units":1,"watt":80,"hours":3,"kwh":7.2,"co2":6.12},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12},{"appliance":"Tube Light","units":1,"watt":20,"hours":5,"kwh":3,"co2":2.55},{"appliance":"LED Bulb","units":1,"watt":9,"hours":4,"kwh":1.08,"co2":0.918},{"appliance":"Phone Charger","units":1,"watt":5,"hours":5,"kwh":0.75,"co2":0.6375}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => Refrigerator
+            [units] => 1
+            [watt] => 150
+            [hours] => 24
+            [kwh] => 108
+            [co2] => 91.8
+        )
+
+    [1] => Array
+        (
+            [appliance] => Laptop
+            [units] => 1
+            [watt] => 60
+            [hours] => 5
+            [kwh] => 9
+            [co2] => 7.65
+        )
+
+    [2] => Array
+        (
+            [appliance] => Television
+            [units] => 1
+            [watt] => 80
+            [hours] => 3
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [3] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [4] => Array
+        (
+            [appliance] => Tube Light
+            [units] => 1
+            [watt] => 20
+            [hours] => 5
+            [kwh] => 3
+            [co2] => 2.55
+        )
+
+    [5] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 1
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 1.08
+            [co2] => 0.918
+        )
+
+    [6] => Array
+        (
+            [appliance] => Phone Charger
+            [units] => 1
+            [watt] => 5
+            [hours] => 5
+            [kwh] => 0.75
+            [co2] => 0.6375
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => Refrigerator
+    [units] => 1
+    [watt] => 150
+    [hours] => 24
+    [kwh] => 108
+    [co2] => 91.8
+)
+
+Inserted row: Array
+(
+    [appliance] => Laptop
+    [units] => 1
+    [watt] => 60
+    [hours] => 5
+    [kwh] => 9
+    [co2] => 7.65
+)
+
+Inserted row: Array
+(
+    [appliance] => Television
+    [units] => 1
+    [watt] => 80
+    [hours] => 3
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Tube Light
+    [units] => 1
+    [watt] => 20
+    [hours] => 5
+    [kwh] => 3
+    [co2] => 2.55
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 1
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 1.08
+    [co2] => 0.918
+)
+
+Inserted row: Array
+(
+    [appliance] => Phone Charger
+    [units] => 1
+    [watt] => 5
+    [hours] => 5
+    [kwh] => 0.75
+    [co2] => 0.6375
+)
+
+Raw input: [{"appliance":"Air Conditioner","units":2,"watt":1500,"hours":6,"kwh":540,"co2":459},{"appliance":"Refrigerator","units":1,"watt":150,"hours":24,"kwh":108,"co2":91.8},{"appliance":"Ceiling Fan","units":1,"watt":70,"hours":5,"kwh":10.5,"co2":8.924999999999999},{"appliance":"Laptop","units":1,"watt":60,"hours":5,"kwh":9,"co2":7.6499999999999995},{"appliance":"Television","units":1,"watt":80,"hours":3,"kwh":7.2,"co2":6.12},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12},{"appliance":"Tube Light","units":1,"watt":20,"hours":5,"kwh":3,"co2":2.55},{"appliance":"LED Bulb","units":1,"watt":9,"hours":4,"kwh":1.08,"co2":0.918},{"appliance":"Phone Charger","units":1,"watt":5,"hours":5,"kwh":0.75,"co2":0.6375}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => Air Conditioner
+            [units] => 2
+            [watt] => 1500
+            [hours] => 6
+            [kwh] => 540
+            [co2] => 459
+        )
+
+    [1] => Array
+        (
+            [appliance] => Refrigerator
+            [units] => 1
+            [watt] => 150
+            [hours] => 24
+            [kwh] => 108
+            [co2] => 91.8
+        )
+
+    [2] => Array
+        (
+            [appliance] => Ceiling Fan
+            [units] => 1
+            [watt] => 70
+            [hours] => 5
+            [kwh] => 10.5
+            [co2] => 8.925
+        )
+
+    [3] => Array
+        (
+            [appliance] => Laptop
+            [units] => 1
+            [watt] => 60
+            [hours] => 5
+            [kwh] => 9
+            [co2] => 7.65
+        )
+
+    [4] => Array
+        (
+            [appliance] => Television
+            [units] => 1
+            [watt] => 80
+            [hours] => 3
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [5] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [6] => Array
+        (
+            [appliance] => Tube Light
+            [units] => 1
+            [watt] => 20
+            [hours] => 5
+            [kwh] => 3
+            [co2] => 2.55
+        )
+
+    [7] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 1
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 1.08
+            [co2] => 0.918
+        )
+
+    [8] => Array
+        (
+            [appliance] => Phone Charger
+            [units] => 1
+            [watt] => 5
+            [hours] => 5
+            [kwh] => 0.75
+            [co2] => 0.6375
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => Air Conditioner
+    [units] => 2
+    [watt] => 1500
+    [hours] => 6
+    [kwh] => 540
+    [co2] => 459
+)
+
+Inserted row: Array
+(
+    [appliance] => Refrigerator
+    [units] => 1
+    [watt] => 150
+    [hours] => 24
+    [kwh] => 108
+    [co2] => 91.8
+)
+
+Inserted row: Array
+(
+    [appliance] => Ceiling Fan
+    [units] => 1
+    [watt] => 70
+    [hours] => 5
+    [kwh] => 10.5
+    [co2] => 8.925
+)
+
+Inserted row: Array
+(
+    [appliance] => Laptop
+    [units] => 1
+    [watt] => 60
+    [hours] => 5
+    [kwh] => 9
+    [co2] => 7.65
+)
+
+Inserted row: Array
+(
+    [appliance] => Television
+    [units] => 1
+    [watt] => 80
+    [hours] => 3
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Tube Light
+    [units] => 1
+    [watt] => 20
+    [hours] => 5
+    [kwh] => 3
+    [co2] => 2.55
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 1
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 1.08
+    [co2] => 0.918
+)
+
+Inserted row: Array
+(
+    [appliance] => Phone Charger
+    [units] => 1
+    [watt] => 5
+    [hours] => 5
+    [kwh] => 0.75
+    [co2] => 0.6375
+)
+
+Raw input: [{"appliance":"Air Conditioner","units":2,"watt":1500,"hours":6,"kwh":540,"co2":459},{"appliance":"Refrigerator","units":1,"watt":150,"hours":24,"kwh":108,"co2":91.8},{"appliance":"Ceiling Fan","units":1,"watt":70,"hours":5,"kwh":10.5,"co2":8.924999999999999},{"appliance":"Laptop","units":1,"watt":60,"hours":5,"kwh":9,"co2":7.6499999999999995},{"appliance":"Television","units":1,"watt":80,"hours":3,"kwh":7.2,"co2":6.12},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12},{"appliance":"Phone Charger","units":3,"watt":5,"hours":5,"kwh":2.25,"co2":1.9124999999999999},{"appliance":"LED Bulb","units":1,"watt":9,"hours":4,"kwh":1.08,"co2":0.918}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => Air Conditioner
+            [units] => 2
+            [watt] => 1500
+            [hours] => 6
+            [kwh] => 540
+            [co2] => 459
+        )
+
+    [1] => Array
+        (
+            [appliance] => Refrigerator
+            [units] => 1
+            [watt] => 150
+            [hours] => 24
+            [kwh] => 108
+            [co2] => 91.8
+        )
+
+    [2] => Array
+        (
+            [appliance] => Ceiling Fan
+            [units] => 1
+            [watt] => 70
+            [hours] => 5
+            [kwh] => 10.5
+            [co2] => 8.925
+        )
+
+    [3] => Array
+        (
+            [appliance] => Laptop
+            [units] => 1
+            [watt] => 60
+            [hours] => 5
+            [kwh] => 9
+            [co2] => 7.65
+        )
+
+    [4] => Array
+        (
+            [appliance] => Television
+            [units] => 1
+            [watt] => 80
+            [hours] => 3
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [5] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [6] => Array
+        (
+            [appliance] => Phone Charger
+            [units] => 3
+            [watt] => 5
+            [hours] => 5
+            [kwh] => 2.25
+            [co2] => 1.9125
+        )
+
+    [7] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 1
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 1.08
+            [co2] => 0.918
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => Air Conditioner
+    [units] => 2
+    [watt] => 1500
+    [hours] => 6
+    [kwh] => 540
+    [co2] => 459
+)
+
+Inserted row: Array
+(
+    [appliance] => Refrigerator
+    [units] => 1
+    [watt] => 150
+    [hours] => 24
+    [kwh] => 108
+    [co2] => 91.8
+)
+
+Inserted row: Array
+(
+    [appliance] => Ceiling Fan
+    [units] => 1
+    [watt] => 70
+    [hours] => 5
+    [kwh] => 10.5
+    [co2] => 8.925
+)
+
+Inserted row: Array
+(
+    [appliance] => Laptop
+    [units] => 1
+    [watt] => 60
+    [hours] => 5
+    [kwh] => 9
+    [co2] => 7.65
+)
+
+Inserted row: Array
+(
+    [appliance] => Television
+    [units] => 1
+    [watt] => 80
+    [hours] => 3
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Phone Charger
+    [units] => 3
+    [watt] => 5
+    [hours] => 5
+    [kwh] => 2.25
+    [co2] => 1.9125
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 1
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 1.08
+    [co2] => 0.918
+)
+
+Raw input: [{"appliance":"LED Bulb","units":1,"watt":9,"hours":4,"kwh":1.08,"co2":0.918},{"appliance":"Tube Light","units":1,"watt":20,"hours":5,"kwh":3,"co2":2.55},{"appliance":"Ceiling Fan","units":1,"watt":70,"hours":5,"kwh":10.5,"co2":8.924999999999999},{"appliance":"Air Conditioner","units":3,"watt":1500,"hours":6,"kwh":810,"co2":688.5},{"appliance":"Refrigerator","units":3,"watt":150,"hours":24,"kwh":324,"co2":275.4},{"appliance":"Laptop","units":1,"watt":60,"hours":5,"kwh":9,"co2":7.6499999999999995},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 1
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 1.08
+            [co2] => 0.918
+        )
+
+    [1] => Array
+        (
+            [appliance] => Tube Light
+            [units] => 1
+            [watt] => 20
+            [hours] => 5
+            [kwh] => 3
+            [co2] => 2.55
+        )
+
+    [2] => Array
+        (
+            [appliance] => Ceiling Fan
+            [units] => 1
+            [watt] => 70
+            [hours] => 5
+            [kwh] => 10.5
+            [co2] => 8.925
+        )
+
+    [3] => Array
+        (
+            [appliance] => Air Conditioner
+            [units] => 3
+            [watt] => 1500
+            [hours] => 6
+            [kwh] => 810
+            [co2] => 688.5
+        )
+
+    [4] => Array
+        (
+            [appliance] => Refrigerator
+            [units] => 3
+            [watt] => 150
+            [hours] => 24
+            [kwh] => 324
+            [co2] => 275.4
+        )
+
+    [5] => Array
+        (
+            [appliance] => Laptop
+            [units] => 1
+            [watt] => 60
+            [hours] => 5
+            [kwh] => 9
+            [co2] => 7.65
+        )
+
+    [6] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 1
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 1.08
+    [co2] => 0.918
+)
+
+Inserted row: Array
+(
+    [appliance] => Tube Light
+    [units] => 1
+    [watt] => 20
+    [hours] => 5
+    [kwh] => 3
+    [co2] => 2.55
+)
+
+Inserted row: Array
+(
+    [appliance] => Ceiling Fan
+    [units] => 1
+    [watt] => 70
+    [hours] => 5
+    [kwh] => 10.5
+    [co2] => 8.925
+)
+
+Inserted row: Array
+(
+    [appliance] => Air Conditioner
+    [units] => 3
+    [watt] => 1500
+    [hours] => 6
+    [kwh] => 810
+    [co2] => 688.5
+)
+
+Inserted row: Array
+(
+    [appliance] => Refrigerator
+    [units] => 3
+    [watt] => 150
+    [hours] => 24
+    [kwh] => 324
+    [co2] => 275.4
+)
+
+Inserted row: Array
+(
+    [appliance] => Laptop
+    [units] => 1
+    [watt] => 60
+    [hours] => 5
+    [kwh] => 9
+    [co2] => 7.65
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Raw input: [{"appliance":"LED Bulb","units":1,"watt":9,"hours":4,"kwh":1.08,"co2":0.918},{"appliance":"Tube Light","units":1,"watt":20,"hours":5,"kwh":3,"co2":2.55},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12},{"appliance":"Phone Charger","units":1,"watt":5,"hours":5,"kwh":0.75,"co2":0.6375}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 1
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 1.08
+            [co2] => 0.918
+        )
+
+    [1] => Array
+        (
+            [appliance] => Tube Light
+            [units] => 1
+            [watt] => 20
+            [hours] => 5
+            [kwh] => 3
+            [co2] => 2.55
+        )
+
+    [2] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [3] => Array
+        (
+            [appliance] => Phone Charger
+            [units] => 1
+            [watt] => 5
+            [hours] => 5
+            [kwh] => 0.75
+            [co2] => 0.6375
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 1
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 1.08
+    [co2] => 0.918
+)
+
+Inserted row: Array
+(
+    [appliance] => Tube Light
+    [units] => 1
+    [watt] => 20
+    [hours] => 5
+    [kwh] => 3
+    [co2] => 2.55
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Phone Charger
+    [units] => 1
+    [watt] => 5
+    [hours] => 5
+    [kwh] => 0.75
+    [co2] => 0.6375
+)
+
+Raw input: [{"appliance":"LED Bulb","units":1,"watt":9,"hours":4,"kwh":1.08,"co2":0.918},{"appliance":"Tube Light","units":1,"watt":20,"hours":5,"kwh":3,"co2":2.55},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12},{"appliance":"Phone Charger","units":1,"watt":5,"hours":5,"kwh":0.75,"co2":0.6375}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 1
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 1.08
+            [co2] => 0.918
+        )
+
+    [1] => Array
+        (
+            [appliance] => Tube Light
+            [units] => 1
+            [watt] => 20
+            [hours] => 5
+            [kwh] => 3
+            [co2] => 2.55
+        )
+
+    [2] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [3] => Array
+        (
+            [appliance] => Phone Charger
+            [units] => 1
+            [watt] => 5
+            [hours] => 5
+            [kwh] => 0.75
+            [co2] => 0.6375
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 1
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 1.08
+    [co2] => 0.918
+)
+
+Inserted row: Array
+(
+    [appliance] => Tube Light
+    [units] => 1
+    [watt] => 20
+    [hours] => 5
+    [kwh] => 3
+    [co2] => 2.55
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Phone Charger
+    [units] => 1
+    [watt] => 5
+    [hours] => 5
+    [kwh] => 0.75
+    [co2] => 0.6375
+)
+
+Raw input: [{"appliance":"LED Bulb","units":1,"watt":9,"hours":4,"kwh":1.08,"co2":0.918},{"appliance":"Refrigerator","units":1,"watt":150,"hours":24,"kwh":108,"co2":91.8},{"appliance":"Television","units":1,"watt":80,"hours":3,"kwh":7.2,"co2":6.12},{"appliance":"Desktop Computer","units":1,"watt":200,"hours":4,"kwh":24,"co2":20.4},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 1
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 1.08
+            [co2] => 0.918
+        )
+
+    [1] => Array
+        (
+            [appliance] => Refrigerator
+            [units] => 1
+            [watt] => 150
+            [hours] => 24
+            [kwh] => 108
+            [co2] => 91.8
+        )
+
+    [2] => Array
+        (
+            [appliance] => Television
+            [units] => 1
+            [watt] => 80
+            [hours] => 3
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [3] => Array
+        (
+            [appliance] => Desktop Computer
+            [units] => 1
+            [watt] => 200
+            [hours] => 4
+            [kwh] => 24
+            [co2] => 20.4
+        )
+
+    [4] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 1
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 1.08
+    [co2] => 0.918
+)
+
+Inserted row: Array
+(
+    [appliance] => Refrigerator
+    [units] => 1
+    [watt] => 150
+    [hours] => 24
+    [kwh] => 108
+    [co2] => 91.8
+)
+
+Inserted row: Array
+(
+    [appliance] => Television
+    [units] => 1
+    [watt] => 80
+    [hours] => 3
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Desktop Computer
+    [units] => 1
+    [watt] => 200
+    [hours] => 4
+    [kwh] => 24
+    [co2] => 20.4
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Raw input: [{"appliance":"LED Bulb","units":4,"watt":9,"hours":4,"kwh":4.32,"co2":3.672},{"appliance":"Tube Light","units":4,"watt":20,"hours":5,"kwh":12,"co2":10.2},{"appliance":"Ceiling Fan","units":4,"watt":70,"hours":5,"kwh":42,"co2":35.699999999999996},{"appliance":"Air Conditioner","units":4,"watt":1500,"hours":6,"kwh":1080,"co2":918},{"appliance":"Refrigerator","units":1,"watt":150,"hours":24,"kwh":108,"co2":91.8},{"appliance":"Microwave Oven","units":1,"watt":1200,"hours":0.5,"kwh":18,"co2":15.299999999999999},{"appliance":"Television","units":3,"watt":80,"hours":3,"kwh":21.6,"co2":18.36},{"appliance":"Laptop","units":1,"watt":60,"hours":5,"kwh":9,"co2":7.6499999999999995},{"appliance":"Desktop Computer","units":1,"watt":200,"hours":4,"kwh":24,"co2":20.4},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12},{"appliance":"Phone Charger","units":4,"watt":5,"hours":5,"kwh":3,"co2":2.55}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 4
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 4.32
+            [co2] => 3.672
+        )
+
+    [1] => Array
+        (
+            [appliance] => Tube Light
+            [units] => 4
+            [watt] => 20
+            [hours] => 5
+            [kwh] => 12
+            [co2] => 10.2
+        )
+
+    [2] => Array
+        (
+            [appliance] => Ceiling Fan
+            [units] => 4
+            [watt] => 70
+            [hours] => 5
+            [kwh] => 42
+            [co2] => 35.7
+        )
+
+    [3] => Array
+        (
+            [appliance] => Air Conditioner
+            [units] => 4
+            [watt] => 1500
+            [hours] => 6
+            [kwh] => 1080
+            [co2] => 918
+        )
+
+    [4] => Array
+        (
+            [appliance] => Refrigerator
+            [units] => 1
+            [watt] => 150
+            [hours] => 24
+            [kwh] => 108
+            [co2] => 91.8
+        )
+
+    [5] => Array
+        (
+            [appliance] => Microwave Oven
+            [units] => 1
+            [watt] => 1200
+            [hours] => 0.5
+            [kwh] => 18
+            [co2] => 15.3
+        )
+
+    [6] => Array
+        (
+            [appliance] => Television
+            [units] => 3
+            [watt] => 80
+            [hours] => 3
+            [kwh] => 21.6
+            [co2] => 18.36
+        )
+
+    [7] => Array
+        (
+            [appliance] => Laptop
+            [units] => 1
+            [watt] => 60
+            [hours] => 5
+            [kwh] => 9
+            [co2] => 7.65
+        )
+
+    [8] => Array
+        (
+            [appliance] => Desktop Computer
+            [units] => 1
+            [watt] => 200
+            [hours] => 4
+            [kwh] => 24
+            [co2] => 20.4
+        )
+
+    [9] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [10] => Array
+        (
+            [appliance] => Phone Charger
+            [units] => 4
+            [watt] => 5
+            [hours] => 5
+            [kwh] => 3
+            [co2] => 2.55
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 4
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 4.32
+    [co2] => 3.672
+)
+
+Inserted row: Array
+(
+    [appliance] => Tube Light
+    [units] => 4
+    [watt] => 20
+    [hours] => 5
+    [kwh] => 12
+    [co2] => 10.2
+)
+
+Inserted row: Array
+(
+    [appliance] => Ceiling Fan
+    [units] => 4
+    [watt] => 70
+    [hours] => 5
+    [kwh] => 42
+    [co2] => 35.7
+)
+
+Inserted row: Array
+(
+    [appliance] => Air Conditioner
+    [units] => 4
+    [watt] => 1500
+    [hours] => 6
+    [kwh] => 1080
+    [co2] => 918
+)
+
+Inserted row: Array
+(
+    [appliance] => Refrigerator
+    [units] => 1
+    [watt] => 150
+    [hours] => 24
+    [kwh] => 108
+    [co2] => 91.8
+)
+
+Inserted row: Array
+(
+    [appliance] => Microwave Oven
+    [units] => 1
+    [watt] => 1200
+    [hours] => 0.5
+    [kwh] => 18
+    [co2] => 15.3
+)
+
+Inserted row: Array
+(
+    [appliance] => Television
+    [units] => 3
+    [watt] => 80
+    [hours] => 3
+    [kwh] => 21.6
+    [co2] => 18.36
+)
+
+Inserted row: Array
+(
+    [appliance] => Laptop
+    [units] => 1
+    [watt] => 60
+    [hours] => 5
+    [kwh] => 9
+    [co2] => 7.65
+)
+
+Inserted row: Array
+(
+    [appliance] => Desktop Computer
+    [units] => 1
+    [watt] => 200
+    [hours] => 4
+    [kwh] => 24
+    [co2] => 20.4
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Phone Charger
+    [units] => 4
+    [watt] => 5
+    [hours] => 5
+    [kwh] => 3
+    [co2] => 2.55
+)
+
+Raw input: [{"appliance":"LED Bulb","units":4,"watt":9,"hours":4,"kwh":4.32,"co2":3.672},{"appliance":"Tube Light","units":4,"watt":20,"hours":5,"kwh":12,"co2":10.2},{"appliance":"Ceiling Fan","units":4,"watt":70,"hours":5,"kwh":42,"co2":35.699999999999996},{"appliance":"Air Conditioner","units":4,"watt":1500,"hours":6,"kwh":1080,"co2":918},{"appliance":"Refrigerator","units":1,"watt":150,"hours":24,"kwh":108,"co2":91.8},{"appliance":"Microwave Oven","units":1,"watt":1200,"hours":0.5,"kwh":18,"co2":15.299999999999999},{"appliance":"Television","units":3,"watt":80,"hours":3,"kwh":21.6,"co2":18.36},{"appliance":"Laptop","units":1,"watt":60,"hours":5,"kwh":9,"co2":7.6499999999999995},{"appliance":"Desktop Computer","units":1,"watt":200,"hours":4,"kwh":24,"co2":20.4},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12},{"appliance":"Phone Charger","units":4,"watt":5,"hours":5,"kwh":3,"co2":2.55}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 4
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 4.32
+            [co2] => 3.672
+        )
+
+    [1] => Array
+        (
+            [appliance] => Tube Light
+            [units] => 4
+            [watt] => 20
+            [hours] => 5
+            [kwh] => 12
+            [co2] => 10.2
+        )
+
+    [2] => Array
+        (
+            [appliance] => Ceiling Fan
+            [units] => 4
+            [watt] => 70
+            [hours] => 5
+            [kwh] => 42
+            [co2] => 35.7
+        )
+
+    [3] => Array
+        (
+            [appliance] => Air Conditioner
+            [units] => 4
+            [watt] => 1500
+            [hours] => 6
+            [kwh] => 1080
+            [co2] => 918
+        )
+
+    [4] => Array
+        (
+            [appliance] => Refrigerator
+            [units] => 1
+            [watt] => 150
+            [hours] => 24
+            [kwh] => 108
+            [co2] => 91.8
+        )
+
+    [5] => Array
+        (
+            [appliance] => Microwave Oven
+            [units] => 1
+            [watt] => 1200
+            [hours] => 0.5
+            [kwh] => 18
+            [co2] => 15.3
+        )
+
+    [6] => Array
+        (
+            [appliance] => Television
+            [units] => 3
+            [watt] => 80
+            [hours] => 3
+            [kwh] => 21.6
+            [co2] => 18.36
+        )
+
+    [7] => Array
+        (
+            [appliance] => Laptop
+            [units] => 1
+            [watt] => 60
+            [hours] => 5
+            [kwh] => 9
+            [co2] => 7.65
+        )
+
+    [8] => Array
+        (
+            [appliance] => Desktop Computer
+            [units] => 1
+            [watt] => 200
+            [hours] => 4
+            [kwh] => 24
+            [co2] => 20.4
+        )
+
+    [9] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [10] => Array
+        (
+            [appliance] => Phone Charger
+            [units] => 4
+            [watt] => 5
+            [hours] => 5
+            [kwh] => 3
+            [co2] => 2.55
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 4
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 4.32
+    [co2] => 3.672
+)
+
+Inserted row: Array
+(
+    [appliance] => Tube Light
+    [units] => 4
+    [watt] => 20
+    [hours] => 5
+    [kwh] => 12
+    [co2] => 10.2
+)
+
+Inserted row: Array
+(
+    [appliance] => Ceiling Fan
+    [units] => 4
+    [watt] => 70
+    [hours] => 5
+    [kwh] => 42
+    [co2] => 35.7
+)
+
+Inserted row: Array
+(
+    [appliance] => Air Conditioner
+    [units] => 4
+    [watt] => 1500
+    [hours] => 6
+    [kwh] => 1080
+    [co2] => 918
+)
+
+Inserted row: Array
+(
+    [appliance] => Refrigerator
+    [units] => 1
+    [watt] => 150
+    [hours] => 24
+    [kwh] => 108
+    [co2] => 91.8
+)
+
+Inserted row: Array
+(
+    [appliance] => Microwave Oven
+    [units] => 1
+    [watt] => 1200
+    [hours] => 0.5
+    [kwh] => 18
+    [co2] => 15.3
+)
+
+Inserted row: Array
+(
+    [appliance] => Television
+    [units] => 3
+    [watt] => 80
+    [hours] => 3
+    [kwh] => 21.6
+    [co2] => 18.36
+)
+
+Inserted row: Array
+(
+    [appliance] => Laptop
+    [units] => 1
+    [watt] => 60
+    [hours] => 5
+    [kwh] => 9
+    [co2] => 7.65
+)
+
+Inserted row: Array
+(
+    [appliance] => Desktop Computer
+    [units] => 1
+    [watt] => 200
+    [hours] => 4
+    [kwh] => 24
+    [co2] => 20.4
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Phone Charger
+    [units] => 4
+    [watt] => 5
+    [hours] => 5
+    [kwh] => 3
+    [co2] => 2.55
+)
+
+Raw input: [{"appliance":"LED Bulb","units":4,"watt":9,"hours":4,"kwh":4.32,"co2":3.672},{"appliance":"Tube Light","units":4,"watt":20,"hours":5,"kwh":12,"co2":10.2},{"appliance":"Ceiling Fan","units":4,"watt":70,"hours":5,"kwh":42,"co2":35.699999999999996},{"appliance":"Air Conditioner","units":4,"watt":1500,"hours":6,"kwh":1080,"co2":918},{"appliance":"Refrigerator","units":1,"watt":150,"hours":24,"kwh":108,"co2":91.8},{"appliance":"Microwave Oven","units":1,"watt":1200,"hours":0.5,"kwh":18,"co2":15.299999999999999},{"appliance":"Television","units":3,"watt":80,"hours":3,"kwh":21.6,"co2":18.36},{"appliance":"Laptop","units":1,"watt":60,"hours":5,"kwh":9,"co2":7.6499999999999995},{"appliance":"Desktop Computer","units":1,"watt":200,"hours":4,"kwh":24,"co2":20.4},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12},{"appliance":"Phone Charger","units":4,"watt":5,"hours":5,"kwh":3,"co2":2.55}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 4
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 4.32
+            [co2] => 3.672
+        )
+
+    [1] => Array
+        (
+            [appliance] => Tube Light
+            [units] => 4
+            [watt] => 20
+            [hours] => 5
+            [kwh] => 12
+            [co2] => 10.2
+        )
+
+    [2] => Array
+        (
+            [appliance] => Ceiling Fan
+            [units] => 4
+            [watt] => 70
+            [hours] => 5
+            [kwh] => 42
+            [co2] => 35.7
+        )
+
+    [3] => Array
+        (
+            [appliance] => Air Conditioner
+            [units] => 4
+            [watt] => 1500
+            [hours] => 6
+            [kwh] => 1080
+            [co2] => 918
+        )
+
+    [4] => Array
+        (
+            [appliance] => Refrigerator
+            [units] => 1
+            [watt] => 150
+            [hours] => 24
+            [kwh] => 108
+            [co2] => 91.8
+        )
+
+    [5] => Array
+        (
+            [appliance] => Microwave Oven
+            [units] => 1
+            [watt] => 1200
+            [hours] => 0.5
+            [kwh] => 18
+            [co2] => 15.3
+        )
+
+    [6] => Array
+        (
+            [appliance] => Television
+            [units] => 3
+            [watt] => 80
+            [hours] => 3
+            [kwh] => 21.6
+            [co2] => 18.36
+        )
+
+    [7] => Array
+        (
+            [appliance] => Laptop
+            [units] => 1
+            [watt] => 60
+            [hours] => 5
+            [kwh] => 9
+            [co2] => 7.65
+        )
+
+    [8] => Array
+        (
+            [appliance] => Desktop Computer
+            [units] => 1
+            [watt] => 200
+            [hours] => 4
+            [kwh] => 24
+            [co2] => 20.4
+        )
+
+    [9] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [10] => Array
+        (
+            [appliance] => Phone Charger
+            [units] => 4
+            [watt] => 5
+            [hours] => 5
+            [kwh] => 3
+            [co2] => 2.55
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 4
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 4.32
+    [co2] => 3.672
+)
+
+Inserted row: Array
+(
+    [appliance] => Tube Light
+    [units] => 4
+    [watt] => 20
+    [hours] => 5
+    [kwh] => 12
+    [co2] => 10.2
+)
+
+Inserted row: Array
+(
+    [appliance] => Ceiling Fan
+    [units] => 4
+    [watt] => 70
+    [hours] => 5
+    [kwh] => 42
+    [co2] => 35.7
+)
+
+Inserted row: Array
+(
+    [appliance] => Air Conditioner
+    [units] => 4
+    [watt] => 1500
+    [hours] => 6
+    [kwh] => 1080
+    [co2] => 918
+)
+
+Inserted row: Array
+(
+    [appliance] => Refrigerator
+    [units] => 1
+    [watt] => 150
+    [hours] => 24
+    [kwh] => 108
+    [co2] => 91.8
+)
+
+Inserted row: Array
+(
+    [appliance] => Microwave Oven
+    [units] => 1
+    [watt] => 1200
+    [hours] => 0.5
+    [kwh] => 18
+    [co2] => 15.3
+)
+
+Inserted row: Array
+(
+    [appliance] => Television
+    [units] => 3
+    [watt] => 80
+    [hours] => 3
+    [kwh] => 21.6
+    [co2] => 18.36
+)
+
+Inserted row: Array
+(
+    [appliance] => Laptop
+    [units] => 1
+    [watt] => 60
+    [hours] => 5
+    [kwh] => 9
+    [co2] => 7.65
+)
+
+Inserted row: Array
+(
+    [appliance] => Desktop Computer
+    [units] => 1
+    [watt] => 200
+    [hours] => 4
+    [kwh] => 24
+    [co2] => 20.4
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Phone Charger
+    [units] => 4
+    [watt] => 5
+    [hours] => 5
+    [kwh] => 3
+    [co2] => 2.55
+)
+
+Raw input: [{"appliance":"LED Bulb","units":1,"watt":9,"hours":4,"kwh":1.08,"co2":0.918},{"appliance":"Tube Light","units":1,"watt":20,"hours":5,"kwh":3,"co2":2.55},{"appliance":"Ceiling Fan","units":1,"watt":70,"hours":5,"kwh":10.5,"co2":8.924999999999999},{"appliance":"Air Conditioner","units":12,"watt":1500,"hours":6,"kwh":3240,"co2":2754},{"appliance":"Refrigerator","units":1,"watt":150,"hours":24,"kwh":108,"co2":91.8},{"appliance":"Induction Cooktop","units":1,"watt":1800,"hours":1,"kwh":54,"co2":45.9},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12},{"appliance":"Phone Charger","units":1,"watt":5,"hours":5,"kwh":0.75,"co2":0.6375}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 1
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 1.08
+            [co2] => 0.918
+        )
+
+    [1] => Array
+        (
+            [appliance] => Tube Light
+            [units] => 1
+            [watt] => 20
+            [hours] => 5
+            [kwh] => 3
+            [co2] => 2.55
+        )
+
+    [2] => Array
+        (
+            [appliance] => Ceiling Fan
+            [units] => 1
+            [watt] => 70
+            [hours] => 5
+            [kwh] => 10.5
+            [co2] => 8.925
+        )
+
+    [3] => Array
+        (
+            [appliance] => Air Conditioner
+            [units] => 12
+            [watt] => 1500
+            [hours] => 6
+            [kwh] => 3240
+            [co2] => 2754
+        )
+
+    [4] => Array
+        (
+            [appliance] => Refrigerator
+            [units] => 1
+            [watt] => 150
+            [hours] => 24
+            [kwh] => 108
+            [co2] => 91.8
+        )
+
+    [5] => Array
+        (
+            [appliance] => Induction Cooktop
+            [units] => 1
+            [watt] => 1800
+            [hours] => 1
+            [kwh] => 54
+            [co2] => 45.9
+        )
+
+    [6] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [7] => Array
+        (
+            [appliance] => Phone Charger
+            [units] => 1
+            [watt] => 5
+            [hours] => 5
+            [kwh] => 0.75
+            [co2] => 0.6375
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 1
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 1.08
+    [co2] => 0.918
+)
+
+Inserted row: Array
+(
+    [appliance] => Tube Light
+    [units] => 1
+    [watt] => 20
+    [hours] => 5
+    [kwh] => 3
+    [co2] => 2.55
+)
+
+Inserted row: Array
+(
+    [appliance] => Ceiling Fan
+    [units] => 1
+    [watt] => 70
+    [hours] => 5
+    [kwh] => 10.5
+    [co2] => 8.925
+)
+
+Inserted row: Array
+(
+    [appliance] => Air Conditioner
+    [units] => 12
+    [watt] => 1500
+    [hours] => 6
+    [kwh] => 3240
+    [co2] => 2754
+)
+
+Inserted row: Array
+(
+    [appliance] => Refrigerator
+    [units] => 1
+    [watt] => 150
+    [hours] => 24
+    [kwh] => 108
+    [co2] => 91.8
+)
+
+Inserted row: Array
+(
+    [appliance] => Induction Cooktop
+    [units] => 1
+    [watt] => 1800
+    [hours] => 1
+    [kwh] => 54
+    [co2] => 45.9
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Phone Charger
+    [units] => 1
+    [watt] => 5
+    [hours] => 5
+    [kwh] => 0.75
+    [co2] => 0.6375
+)
+
+Raw input: [{"appliance":"LED Bulb","units":1,"watt":9,"hours":4,"kwh":1.08,"co2":0.918},{"appliance":"Tube Light","units":1,"watt":20,"hours":5,"kwh":3,"co2":2.55},{"appliance":"Ceiling Fan","units":1,"watt":70,"hours":5,"kwh":10.5,"co2":8.924999999999999},{"appliance":"Air Conditioner","units":4,"watt":1500,"hours":6,"kwh":1080,"co2":918},{"appliance":"Refrigerator","units":1,"watt":150,"hours":24,"kwh":108,"co2":91.8},{"appliance":"Induction Cooktop","units":1,"watt":1800,"hours":1,"kwh":54,"co2":45.9},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12},{"appliance":"Phone Charger","units":1,"watt":5,"hours":5,"kwh":0.75,"co2":0.6375}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 1
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 1.08
+            [co2] => 0.918
+        )
+
+    [1] => Array
+        (
+            [appliance] => Tube Light
+            [units] => 1
+            [watt] => 20
+            [hours] => 5
+            [kwh] => 3
+            [co2] => 2.55
+        )
+
+    [2] => Array
+        (
+            [appliance] => Ceiling Fan
+            [units] => 1
+            [watt] => 70
+            [hours] => 5
+            [kwh] => 10.5
+            [co2] => 8.925
+        )
+
+    [3] => Array
+        (
+            [appliance] => Air Conditioner
+            [units] => 4
+            [watt] => 1500
+            [hours] => 6
+            [kwh] => 1080
+            [co2] => 918
+        )
+
+    [4] => Array
+        (
+            [appliance] => Refrigerator
+            [units] => 1
+            [watt] => 150
+            [hours] => 24
+            [kwh] => 108
+            [co2] => 91.8
+        )
+
+    [5] => Array
+        (
+            [appliance] => Induction Cooktop
+            [units] => 1
+            [watt] => 1800
+            [hours] => 1
+            [kwh] => 54
+            [co2] => 45.9
+        )
+
+    [6] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [7] => Array
+        (
+            [appliance] => Phone Charger
+            [units] => 1
+            [watt] => 5
+            [hours] => 5
+            [kwh] => 0.75
+            [co2] => 0.6375
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 1
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 1.08
+    [co2] => 0.918
+)
+
+Inserted row: Array
+(
+    [appliance] => Tube Light
+    [units] => 1
+    [watt] => 20
+    [hours] => 5
+    [kwh] => 3
+    [co2] => 2.55
+)
+
+Inserted row: Array
+(
+    [appliance] => Ceiling Fan
+    [units] => 1
+    [watt] => 70
+    [hours] => 5
+    [kwh] => 10.5
+    [co2] => 8.925
+)
+
+Inserted row: Array
+(
+    [appliance] => Air Conditioner
+    [units] => 4
+    [watt] => 1500
+    [hours] => 6
+    [kwh] => 1080
+    [co2] => 918
+)
+
+Inserted row: Array
+(
+    [appliance] => Refrigerator
+    [units] => 1
+    [watt] => 150
+    [hours] => 24
+    [kwh] => 108
+    [co2] => 91.8
+)
+
+Inserted row: Array
+(
+    [appliance] => Induction Cooktop
+    [units] => 1
+    [watt] => 1800
+    [hours] => 1
+    [kwh] => 54
+    [co2] => 45.9
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Phone Charger
+    [units] => 1
+    [watt] => 5
+    [hours] => 5
+    [kwh] => 0.75
+    [co2] => 0.6375
+)
+
+Raw input: [{"appliance":"LED Bulb","units":1,"watt":9,"hours":4,"kwh":1.08,"co2":0.918},{"appliance":"Tube Light","units":1,"watt":20,"hours":5,"kwh":3,"co2":2.55},{"appliance":"Ceiling Fan","units":1,"watt":70,"hours":5,"kwh":10.5,"co2":8.924999999999999},{"appliance":"Air Conditioner","units":2,"watt":1500,"hours":6,"kwh":540,"co2":459},{"appliance":"Refrigerator","units":1,"watt":150,"hours":24,"kwh":108,"co2":91.8},{"appliance":"Induction Cooktop","units":1,"watt":1800,"hours":1,"kwh":54,"co2":45.9},{"appliance":"Television","units":1,"watt":80,"hours":3,"kwh":7.2,"co2":6.12},{"appliance":"Laptop","units":1,"watt":60,"hours":5,"kwh":9,"co2":7.6499999999999995},{"appliance":"WiFi Router","units":1,"watt":10,"hours":24,"kwh":7.2,"co2":6.12},{"appliance":"Phone Charger","units":1,"watt":5,"hours":5,"kwh":0.75,"co2":0.6375}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [appliance] => LED Bulb
+            [units] => 1
+            [watt] => 9
+            [hours] => 4
+            [kwh] => 1.08
+            [co2] => 0.918
+        )
+
+    [1] => Array
+        (
+            [appliance] => Tube Light
+            [units] => 1
+            [watt] => 20
+            [hours] => 5
+            [kwh] => 3
+            [co2] => 2.55
+        )
+
+    [2] => Array
+        (
+            [appliance] => Ceiling Fan
+            [units] => 1
+            [watt] => 70
+            [hours] => 5
+            [kwh] => 10.5
+            [co2] => 8.925
+        )
+
+    [3] => Array
+        (
+            [appliance] => Air Conditioner
+            [units] => 2
+            [watt] => 1500
+            [hours] => 6
+            [kwh] => 540
+            [co2] => 459
+        )
+
+    [4] => Array
+        (
+            [appliance] => Refrigerator
+            [units] => 1
+            [watt] => 150
+            [hours] => 24
+            [kwh] => 108
+            [co2] => 91.8
+        )
+
+    [5] => Array
+        (
+            [appliance] => Induction Cooktop
+            [units] => 1
+            [watt] => 1800
+            [hours] => 1
+            [kwh] => 54
+            [co2] => 45.9
+        )
+
+    [6] => Array
+        (
+            [appliance] => Television
+            [units] => 1
+            [watt] => 80
+            [hours] => 3
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [7] => Array
+        (
+            [appliance] => Laptop
+            [units] => 1
+            [watt] => 60
+            [hours] => 5
+            [kwh] => 9
+            [co2] => 7.65
+        )
+
+    [8] => Array
+        (
+            [appliance] => WiFi Router
+            [units] => 1
+            [watt] => 10
+            [hours] => 24
+            [kwh] => 7.2
+            [co2] => 6.12
+        )
+
+    [9] => Array
+        (
+            [appliance] => Phone Charger
+            [units] => 1
+            [watt] => 5
+            [hours] => 5
+            [kwh] => 0.75
+            [co2] => 0.6375
+        )
+
+)
+
+Inserted row: Array
+(
+    [appliance] => LED Bulb
+    [units] => 1
+    [watt] => 9
+    [hours] => 4
+    [kwh] => 1.08
+    [co2] => 0.918
+)
+
+Inserted row: Array
+(
+    [appliance] => Tube Light
+    [units] => 1
+    [watt] => 20
+    [hours] => 5
+    [kwh] => 3
+    [co2] => 2.55
+)
+
+Inserted row: Array
+(
+    [appliance] => Ceiling Fan
+    [units] => 1
+    [watt] => 70
+    [hours] => 5
+    [kwh] => 10.5
+    [co2] => 8.925
+)
+
+Inserted row: Array
+(
+    [appliance] => Air Conditioner
+    [units] => 2
+    [watt] => 1500
+    [hours] => 6
+    [kwh] => 540
+    [co2] => 459
+)
+
+Inserted row: Array
+(
+    [appliance] => Refrigerator
+    [units] => 1
+    [watt] => 150
+    [hours] => 24
+    [kwh] => 108
+    [co2] => 91.8
+)
+
+Inserted row: Array
+(
+    [appliance] => Induction Cooktop
+    [units] => 1
+    [watt] => 1800
+    [hours] => 1
+    [kwh] => 54
+    [co2] => 45.9
+)
+
+Inserted row: Array
+(
+    [appliance] => Television
+    [units] => 1
+    [watt] => 80
+    [hours] => 3
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Laptop
+    [units] => 1
+    [watt] => 60
+    [hours] => 5
+    [kwh] => 9
+    [co2] => 7.65
+)
+
+Inserted row: Array
+(
+    [appliance] => WiFi Router
+    [units] => 1
+    [watt] => 10
+    [hours] => 24
+    [kwh] => 7.2
+    [co2] => 6.12
+)
+
+Inserted row: Array
+(
+    [appliance] => Phone Charger
+    [units] => 1
+    [watt] => 5
+    [hours] => 5
+    [kwh] => 0.75
+    [co2] => 0.6375
+)
+
+Raw input: [{"type":"building","score":1,"rating":"Poor – High environmental impact, many improvements possible.","date":"2025-10-04T22:31:28.285Z"}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [type] => building
+            [score] => 1
+            [rating] => Poor – High environmental impact, many improvements possible.
+            [date] => 2025-10-04T22:31:28.285Z
+        )
+
+)
+
+Skipped row (not for emission table): Array
+(
+    [type] => building
+    [score] => 1
+    [rating] => Poor – High environmental impact, many improvements possible.
+    [date] => 2025-10-04T22:31:28.285Z
+)
+
+Raw input: [{"type":"building","score":2,"rating":"Poor – High environmental impact, many improvements possible.","date":"2025-10-04T22:32:05.501Z"}]
+Decoded data: Array
+(
+    [0] => Array
+        (
+            [type] => building
+            [score] => 2
+            [rating] => Poor – High environmental impact, many improvements possible.
+            [date] => 2025-10-04T22:32:05.501Z
+        )
+
+)
+
+Skipped row (not for emission table): Array
+(
+    [type] => building
+    [score] => 2
+    [rating] => Poor – High environmental impact, many improvements possible.
+    [date] => 2025-10-04T22:32:05.501Z
+)
+

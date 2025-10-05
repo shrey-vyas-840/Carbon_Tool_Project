@@ -32,17 +32,13 @@ It helps users **calculate emissions**, **estimate electricity bills**, and **di
 
 ```mermaid
 graph TD
-    U[🧑 User Browser] --> A[Frontend (HTML, CSS, JS)]
+    U[User Browser 🌐] --> A[Frontend (HTML, CSS, JS)]
     A -->|HTTP Requests| B[PHP Backend (Auth & Logic)]
     B --> C[(MySQL Database)]
     B --> D[Playwright Visual Tests]
     D --> E[TestSprite Visual Regression]
     B --> F[InfinityFree Hosting / FTP]
-## Visual quick‑tour
-- Hero: Tools (Electricity, Water, Green Building, Fuel)  
-- Results view: detailed table + energy tips + "View related products" CTA  
-- Product page: card grid with "Verified supplier" tag per card  
-- Services: Carbon Calculator, Marketplace, Green Consultation
+
 
 ---
 

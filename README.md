@@ -39,8 +39,7 @@ graph TD
     B --> C[(MySQL Database)]
     B --> D[Playwright Visual Tests]
     D --> E[TestSprite Visual Regression]
-    B --> F[InfinityFree Hosting / FTP]
-```
+    B --> F[InfinityFree Hosting / FTP]```
 
 
 ## Visual quick‑tour

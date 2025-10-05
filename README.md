@@ -30,8 +30,6 @@ It helps users **calculate emissions**, **estimate electricity bills**, and **di
 
 ## 🧩 Architecture Overview
 
-## 🧩 Architecture Overview
-
 ```mermaid
 graph TD
     U[🧑 User Browser] --> A[Frontend (HTML, CSS, JS)]
@@ -81,13 +79,6 @@ graph TD
 
 ---
 
-## Architecture (concise)
-- Frontend: static HTML + CSS + vanilla JS (`main.js`)  
-- Backend: PHP endpoints (auth, save results) + MySQL (users, products, results)  
-- Tests: Playwright scripts in `tests/` (capture screenshots) + TestSprite uploader helper
-
----
-
 // ...existing code...
 ## Tech stack
 - HTML5, CSS3, JS (ES6)
@@ -97,34 +88,6 @@ graph TD
 - TestSprite (visual regression via API)
 - Deployment: InfinityFree (FTP), alternative: Vercel with API migration
 
-<!-- Visual tech stack bar -->
-<div style="max-width:720px; margin:1rem 0; font-family:inherit;">
-  <style>
-    .tech-row { display:flex; align-items:center; gap:0.75rem; margin:0.5rem 0; }
-    .tech-label { width:140px; font-weight:600; color:#0b5; }
-    .bar { flex:1; height:14px; background:#e6f5ea; border-radius:8px; overflow:hidden; box-shadow:inset 0 -1px 0 rgba(0,0,0,0.03); }
-    .bar > span { display:block; height:100%; border-radius:8px; }
-    .html { background: linear-gradient(90deg,#ffdd57,#ffb347); width:95%; }
-    .css { background: linear-gradient(90deg,#6dd5ed,#2193b0); width:90%; }
-    .js { background: linear-gradient(90deg,#f7df1e,#f0c419); width:85%; }
-    .php { background: linear-gradient(90deg,#8892BF,#6e5494); width:75%; }
-    .mysql { background: linear-gradient(90deg,#4caf50,#2e7d32); width:80%; }
-    .playwright { background: linear-gradient(90deg,#7f5af0,#5ad0a6); width:60%; }
-    .testsprite { background: linear-gradient(90deg,#ff7eb3,#ff758c); width:50%; }
-    .hosting { background: linear-gradient(90deg,#00c6ff,#0072ff); width:70%; }
-    .tech-value { width:56px; text-align:right; font-size:0.85rem; color:#555; margin-left:0.6rem; }
-  </style>
-
-  <div class="tech-row"><div class="tech-label">HTML</div><div class="bar"><span class="html"></span></div><div class="tech-value">95%</div></div>
-  <div class="tech-row"><div class="tech-label">CSS</div><div class="bar"><span class="css"></span></div><div class="tech-value">90%</div></div>
-  <div class="tech-row"><div class="tech-label">JavaScript</div><div class="bar"><span class="js"></span></div><div class="tech-value">85%</div></div>
-  <div class="tech-row"><div class="tech-label">PHP</div><div class="bar"><span class="php"></span></div><div class="tech-value">75%</div></div>
-  <div class="tech-row"><div class="tech-label">MySQL</div><div class="bar"><span class="mysql"></span></div><div class="tech-value">80%</div></div>
-  <div class="tech-row"><div class="tech-label">Playwright</div><div class="bar"><span class="playwright"></span></div><div class="tech-value">60%</div></div>
-  <div class="tech-row"><div class="tech-label">TestSprite</div><div class="bar"><span class="testsprite"></span></div><div class="tech-value">50%</div></div>
-  <div class="tech-row"><div class="tech-label">Hosting (InfinityFree)</div><div class="bar"><span class="hosting"></span></div><div class="tech-value">70%</div></div>
-</div>
-// ...existing code...
 
 ## Deployment (InfinityFree summary)
 1. Create InfinityFree account and add site/subdomain.

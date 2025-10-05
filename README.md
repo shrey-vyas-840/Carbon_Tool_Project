@@ -30,8 +30,6 @@ It helps users **calculate emissions**, **estimate electricity bills**, and **di
 
 ## 🧩 Architecture Overview
 
-```mermaid
-graph TD
     U[User Browser 🌐] --> A[Frontend (HTML, CSS, JS)]
     A -->|HTTP Requests| B[PHP Backend (Auth & Logic)]
     B --> C[(MySQL Database)]
@@ -75,7 +73,6 @@ graph TD
 
 ---
 
-// ...existing code...
 ## Tech stack
 - HTML5, CSS3, JS (ES6)
 - PHP 7/8 (server side)
@@ -97,7 +94,7 @@ graph TD
 ## Troubleshooting (common)
 - 500 / DB errors: check `includes/db.php` credentials and host.
 - Missing assets: verify paths are relative (e.g., `./main.js`, `./style.css`).
-- Tools blocked: ensure `greenshift_user` is created on login (localStorage) and `tool.html` checks it.
+- Tools blocked: ensure `users` is created on login (localStorage) and `tool.html` checks it.
 - Playwright: regenerate screenshots with `node tests/capture-and-compare.js`.
 
 ---
@@ -107,18 +104,6 @@ graph TD
 - Keep secrets out of the repo (do not commit `includes/db.php` with real credentials)
 - Add tests for new calculator rules or product types
 
-Suggested .gitignore (add before first commit):
-```text
-/node_modules/
-/vendor/
-/.env
-includes/db.php
-*.sql
-/screenshots/
-/.DS_Store
-```
-
----
 
 ## Acceptance tests (examples)
 - Electricity units 40 → subtotal 128.00; FPPA 152.40; fixed 50; total 330.40  

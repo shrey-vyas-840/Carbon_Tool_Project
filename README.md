@@ -1,4 +1,4 @@
-# 🌿 EarthenCare — Carbon Tool Project
+# 🌿 EarthenCare - Carbon Tool Project
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 [![Live Demo](https://img.shields.io/badge/demo-earthencare.gt.tc-brightgreen)](https://earthencare.gt.tc)
@@ -37,35 +37,6 @@ graph TD
     B --> D[Playwright Visual Tests]
     D --> E[TestSprite Visual Regression]
     B --> F[InfinityFree Hosting / FTP]
-
-
-
-
-
-
-# 🌿 EarthenCare — Carbon Tool Project
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![Live Demo](https://img.shields.io/badge/demo-earthencare.gt.tc-brightgreen)](https://earthencare.gt.tc) ![Platform](https://img.shields.io/badge/platform-Web-lightgrey)
-
-A compact, usable carbon-emission calculator and verified green‑products marketplace — built for quick local testing and easy FTP deployment (InfinityFree). Designed for clarity and action: calculate emissions, estimate electricity bills, discover verified products, and access green consultancy services.
-
----
-
-## Demo
-Live site: https://earthencare.gt.tc
-
----
-
-## Key Features (at-a-glance)
-- Appliance-level Electricity calculator (kWh → CO₂)  
-- Water, Fuel and Green‑Building calculators (inputs-validated)  
-- Electricity bill estimator (bracketed rate + FPPA + fixed charge)  
-- Product marketplace with category filters and "View related products" links from tools  
-- Protected Tools page (login required)  
-- Save/load results to MySQL via PHP backend  
-- Simple Playwright visual test scripts + TestSprite uploader
-
----
 
 ## Visual quick‑tour
 - Hero: Tools (Electricity, Water, Green Building, Fuel)  

@@ -30,13 +30,17 @@ It helps users **calculate emissions**, **estimate electricity bills**, and **di
 
 ## 🧩 Architecture Overview
 
-```mermaid```
+## 🧩 Architecture Overview
+
+```mermaid
 graph TD
-    A[Frontend (HTML, CSS, JS)] -->|HTTP Requests| B[PHP Backend (Auth, Logic)]
+    U[🧑 User Browser] --> A[Frontend (HTML, CSS, JS)]
+    A -->|HTTP Requests| B[PHP Backend (Auth & Logic)]
     B --> C[(MySQL Database)]
     B --> D[Playwright Visual Tests]
     D --> E[TestSprite Visual Regression]
-    B --> F[InfinityFree Hosting / FTP] 
+    B --> F[InfinityFree Hosting / FTP]
+```
 
 
 ## Visual quick‑tour

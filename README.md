@@ -1,5 +1,50 @@
 # 🌿 EarthenCare — Carbon Tool Project
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Live Demo](https://img.shields.io/badge/demo-earthencare.gt.tc-brightgreen)](https://earthencare.gt.tc)
+![Platform](https://img.shields.io/badge/platform-Web-lightgrey)
+![Built with](https://img.shields.io/badge/Built%20with-HTML%2C%20CSS%2C%20JS%2C%20PHP-blue)
+![Status](https://img.shields.io/badge/status-Active-success)
+
+---
+
+### 🪴 Overview
+
+**EarthenCare** is a compact carbon-emission calculator and verified green-products marketplace — designed for clarity, action, and simple FTP deployment.  
+It helps users **calculate emissions**, **estimate electricity bills**, and **discover verified eco-products** with ease.
+
+🌐 **Live Demo:** [https://earthencare.gt.tc](https://earthencare.gt.tc)
+
+---
+
+## ⚡ Key Features
+✅ Appliance-level Electricity calculator (kWh → CO₂)  
+✅ Water, Fuel & Green-Building calculators (validated inputs)  
+✅ Electricity bill estimator (bracketed rate + FPPA + fixed charge)  
+✅ Product marketplace with filters + related product linking  
+✅ Protected Tools page (login required)  
+✅ MySQL data persistence (save/load results)  
+✅ Playwright visual tests + TestSprite visual regression tool  
+
+---
+
+## 🧩 Architecture Overview
+
+```mermaid
+graph TD
+    A[Frontend (HTML, CSS, JS)] -->|HTTP Requests| B[PHP Backend (Auth, Logic)]
+    B --> C[(MySQL Database)]
+    B --> D[Playwright Visual Tests]
+    D --> E[TestSprite Visual Regression]
+    B --> F[InfinityFree Hosting / FTP]
+
+
+
+
+
+
+# 🌿 EarthenCare — Carbon Tool Project
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE) [![Live Demo](https://img.shields.io/badge/demo-earthencare.gt.tc-brightgreen)](https://earthencare.gt.tc) ![Platform](https://img.shields.io/badge/platform-Web-lightgrey)
 
 A compact, usable carbon-emission calculator and verified green‑products marketplace — built for quick local testing and easy FTP deployment (InfinityFree). Designed for clarity and action: calculate emissions, estimate electricity bills, discover verified products, and access green consultancy services.
